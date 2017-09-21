@@ -1,0 +1,8 @@
+all_cpu_busy-cpu_00=13.530563
+all_cpu_busy-cpu_01=14.227324
+all_cpu_busy-cpu_02=13.719859
+all_cpu_busy-cpu_03=14.026197
+frequency_MHz-cpu_00=2300.120000
+frequency_MHz-cpu_01=2300.120000
+frequency_MHz-cpu_02=2300.120000
+frequency_MHz-cpu_03=2300.120000

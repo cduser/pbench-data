@@ -1,0 +1,101 @@
+Linux 3.10.0-709.el7.x86_64 (ip-172-31-18-173.us-west-2.compute.internal) 	09/20/17 	_x86_64_	(4 CPU)
+
+09/20/17 21:10:45
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           4.13    0.00    1.26    0.62    0.03   93.95
+
+Device:         rrqm/s   wrqm/s     r/s     w/s    rMB/s    wMB/s avgrq-sz avgqu-sz   await r_await w_await  svctm  %util
+xvda              0.01     0.46    8.29   22.50     0.28     2.37   176.46     2.93   95.14    6.05  127.96   1.02   3.13
+xvdb              0.00     0.00    0.03    0.11     0.00     0.00    10.02     0.00    5.10    8.70    3.97   4.26   0.06
+docker_vg-docker--root--lv     0.00     0.00    0.02    0.11     0.00     0.00    10.30     0.00    4.85   10.50    3.97   3.92   0.05
+
+09/20/17 21:20:45
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.28    0.10    0.53    0.11    0.03   98.94
+
+Device:         rrqm/s   wrqm/s     r/s     w/s    rMB/s    wMB/s avgrq-sz avgqu-sz   await r_await w_await  svctm  %util
+xvda              0.01     2.15    6.88    2.29     0.04     0.06    22.16     0.03    3.55    0.66   12.23   0.63   0.58
+xvdb              0.00     0.00    0.00    0.00     0.00     0.00     0.00     0.00    0.00    0.00    0.00   0.00   0.00
+docker_vg-docker--root--lv     0.00     0.00    0.00    0.00     0.00     0.00     0.00     0.00    0.00    0.00    0.00   0.00   0.00
+
+09/20/17 21:30:45
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.60    0.00    0.73    0.05    0.04   98.57
+
+Device:         rrqm/s   wrqm/s     r/s     w/s    rMB/s    wMB/s avgrq-sz avgqu-sz   await r_await w_await  svctm  %util
+xvda              0.00     0.09    0.44    0.92     0.04     0.01    77.75     0.01    5.12   10.72    2.47   0.83   0.11
+xvdb              0.00     0.22    0.11    2.15     0.00     0.02    16.64     0.01    6.48   32.20    5.20   2.60   0.59
+docker_vg-docker--root--lv     0.00     0.00    0.11    2.37     0.00     0.02    15.15     0.02    7.56   32.20    6.45   2.37   0.59
+
+09/20/17 21:40:45
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           2.21    0.02    2.52    0.05    0.08   95.11
+
+Device:         rrqm/s   wrqm/s     r/s     w/s    rMB/s    wMB/s avgrq-sz avgqu-sz   await r_await w_await  svctm  %util
+xvda              0.00     0.40    0.00    2.74     0.00     0.03    18.71     0.01    3.07    0.00    3.07   0.47   0.13
+xvdb              0.00     0.75    0.00    5.41     0.00     0.04    17.00     0.03    5.06    0.00    5.06   1.14   0.61
+docker_vg-docker--root--lv     0.00     0.00    0.00    6.16     0.00     0.04    14.93     0.04    6.35    0.00    6.35   1.00   0.62
+
+09/20/17 21:50:45
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           4.22    0.09    4.89    0.07    0.10   90.64
+
+Device:         rrqm/s   wrqm/s     r/s     w/s    rMB/s    wMB/s avgrq-sz avgqu-sz   await r_await w_await  svctm  %util
+xvda              0.00     1.03    0.00    4.33     0.00     0.04    19.36     0.02    4.15    0.00    4.15   0.39   0.17
+xvdb              0.00     0.67    0.00    6.45     0.00     0.05    16.65     0.03    4.38    0.00    4.38   1.04   0.67
+docker_vg-docker--root--lv     0.00     0.00    0.00    7.12     0.00     0.05    15.09     0.04    5.49    0.00    5.49   0.94   0.67
+
+09/20/17 22:00:45
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           6.08    0.17    7.80    0.10    0.11   85.74
+
+Device:         rrqm/s   wrqm/s     r/s     w/s    rMB/s    wMB/s avgrq-sz avgqu-sz   await r_await w_await  svctm  %util
+xvda              0.00     1.67    0.00    4.47     0.00     0.05    21.03     0.03    5.72    0.00    5.72   0.54   0.24
+xvdb              0.00     0.52    0.00    6.96     0.00     0.06    17.10     0.03    5.03    0.00    5.03   1.41   0.98
+docker_vg-docker--root--lv     0.00     0.00    0.00    7.48     0.00     0.06    15.90     0.04    5.82    0.00    5.82   1.31   0.98
+
+09/20/17 22:10:45
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           6.75    0.28    8.88    0.04    0.09   83.96
+
+Device:         rrqm/s   wrqm/s     r/s     w/s    rMB/s    wMB/s avgrq-sz avgqu-sz   await r_await w_await  svctm  %util
+xvda              0.00     1.64    0.00    4.57     0.00     0.05    21.30     0.02    4.08    0.00    4.08   0.30   0.14
+xvdb              0.00     0.57    0.00    4.17     0.00     0.03    15.99     0.02    4.77    2.00    4.77   1.03   0.43
+docker_vg-docker--root--lv     0.00     0.00    0.00    4.74     0.00     0.03    14.07     0.03    5.97    2.00    5.97   0.91   0.43
+
+09/20/17 22:20:45
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           8.29    0.38   11.79    0.05    0.10   79.38
+
+Device:         rrqm/s   wrqm/s     r/s     w/s    rMB/s    wMB/s avgrq-sz avgqu-sz   await r_await w_await  svctm  %util
+xvda              0.00     1.54    0.00    5.87     0.00     0.06    19.23     0.04    7.49    0.00    7.49   0.35   0.20
+xvdb              0.00     0.48    0.00    5.16     0.00     0.04    16.55     0.02    4.64    0.00    4.64   1.00   0.51
+docker_vg-docker--root--lv     0.00     0.00    0.00    5.64     0.00     0.04    15.15     0.03    5.41    0.00    5.41   0.91   0.52
+
+09/20/17 22:30:45
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           9.20    0.53   13.55    0.04    0.10   76.57
+
+Device:         rrqm/s   wrqm/s     r/s     w/s    rMB/s    wMB/s avgrq-sz avgqu-sz   await r_await w_await  svctm  %util
+xvda              0.00     1.92    0.00    6.25     0.00     0.06    21.12     0.04    7.10    0.00    7.10   0.23   0.14
+xvdb              0.00     0.57    0.00    4.53     0.00     0.04    18.09     0.02    4.55    0.00    4.55   0.92   0.42
+docker_vg-docker--root--lv     0.00     0.00    0.00    5.10     0.00     0.04    16.06     0.03    5.68    0.00    5.68   0.82   0.42
+
+09/20/17 22:40:45
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           9.69    0.63   15.56    0.03    0.10   73.99
+
+Device:         rrqm/s   wrqm/s     r/s     w/s    rMB/s    wMB/s avgrq-sz avgqu-sz   await r_await w_await  svctm  %util
+xvda              0.00     1.63    0.00    6.69     0.00     0.06    18.66     0.06    9.10    0.00    9.10   0.26   0.18
+xvdb              0.00     0.39    0.00    3.16     0.00     0.02    15.69     0.02    7.42    0.00    7.42   1.28   0.40
+docker_vg-docker--root--lv     0.00     0.00    0.00    3.55     0.00     0.02    13.97     0.03    9.08    0.00    9.08   1.14   0.40
+
+09/20/17 22:50:45
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          11.89    0.76   19.48    0.16    0.11   67.60
+
+Device:         rrqm/s   wrqm/s     r/s     w/s    rMB/s    wMB/s avgrq-sz avgqu-sz   await r_await w_await  svctm  %util
+xvda              0.00     1.69    0.00    7.95     0.00     0.08    19.66     0.07    9.21    0.00    9.21   0.26   0.21
+xvdb              0.00     0.63    0.00    4.62     0.00     0.04    17.76     0.08   16.64    0.00   16.64   3.57   1.65
+docker_vg-docker--root--lv     0.00     0.00    0.00    5.25     0.00     0.04    15.64     0.13   23.96    0.00   23.96   3.15   1.65
+

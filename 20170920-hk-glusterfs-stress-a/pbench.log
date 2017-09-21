@@ -1,0 +1,201 @@
+[debug][2017-09-20T20:57:56.317972161] [pbench-stop-tools]started: 
+[debug][2017-09-20T20:57:56.414570292] [pbench-stop-tools]completed: 
+[debug][2017-09-20T20:57:56.523658668] [pbench-kill-tools]started: 
+[debug][2017-09-20T20:57:56.531182043] [pbench-kill-tools]completed: 
+[debug][2017-09-20T20:57:56.748706022] tool_opts: --interval=100
+[debug][2017-09-20T20:57:56.756168740] checking to see if tool is installed...
+[debug][2017-09-20T20:57:58.150307326] [check_install_rpm] pbench-sysstat has already been installed
+[debug][2017-09-20T20:57:58.261906517] tool_opts: --interval=600
+[debug][2017-09-20T20:57:58.266677976] checking to see if tool is installed...
+[debug][2017-09-20T20:57:58.388917771] [check_install_rpm] pbench-sysstat has already been installed
+[debug][2017-09-20T20:57:58.501019598] tool_opts: --interval=100
+[debug][2017-09-20T20:57:58.505633486] checking to see if tool is installed...
+[debug][2017-09-20T20:57:58.627014069] [check_install_rpm] pbench-sysstat has already been installed
+[debug][2017-09-20T20:57:58.740784949] tool_opts: 
+[debug][2017-09-20T20:57:58.745656340] checking to see if tool is installed...
+[debug][2017-09-20T20:57:59.206544221] [check_install_rpm] atomic-openshift-clients has already been installed
+[debug][2017-09-20T20:57:59.320169596] tool_opts: --osecomponent=master --interval=600
+[debug][2017-09-20T20:57:59.325183652] checking to see if tool is installed...
+[debug][2017-09-20T20:57:59.600108142] [check_install_rpm] golang has already been installed
+[debug][2017-09-20T20:59:30.652811893] tool_opts: --interval=100
+[debug][2017-09-20T20:59:30.657770367] tool_opts[0]="--interval=100"; pbench-register-tool --name=sar --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T20:59:31.582998072] tool_opts: --interval=600
+[debug][2017-09-20T20:59:31.587934814] tool_opts[0]="--interval=600"; pbench-register-tool --name=iostat --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T20:59:32.061168473] tool_opts: --interval=100
+[debug][2017-09-20T20:59:32.066154914] tool_opts[0]="--interval=100"; pbench-register-tool --name=pidstat --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T20:59:32.534157895] tool_opts: --osecomponent=node --interval=600
+[debug][2017-09-20T20:59:32.539098485] tool_opts[0]="--osecomponent=node"; tool_opts[1]="--interval=600"; pbench-register-tool --name=pprof --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T20:59:37.176070102] tool_opts: --interval=100
+[debug][2017-09-20T20:59:37.181048106] tool_opts[0]="--interval=100"; pbench-register-tool --name=sar --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T20:59:38.013196673] tool_opts: --interval=600
+[debug][2017-09-20T20:59:38.018245210] tool_opts[0]="--interval=600"; pbench-register-tool --name=iostat --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T20:59:38.498568949] tool_opts: --interval=100
+[debug][2017-09-20T20:59:38.503064976] tool_opts[0]="--interval=100"; pbench-register-tool --name=pidstat --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T20:59:38.982932991] tool_opts: --osecomponent=node --interval=600
+[debug][2017-09-20T20:59:38.987911650] tool_opts[0]="--osecomponent=node"; tool_opts[1]="--interval=600"; pbench-register-tool --name=pprof --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T20:59:43.232537810] tool_opts: --interval=100
+[debug][2017-09-20T20:59:43.237655195] tool_opts[0]="--interval=100"; pbench-register-tool --name=sar --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T20:59:44.141288994] tool_opts: --interval=600
+[debug][2017-09-20T20:59:44.145835239] tool_opts[0]="--interval=600"; pbench-register-tool --name=iostat --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T20:59:44.646562161] tool_opts: --interval=100
+[debug][2017-09-20T20:59:44.651331859] tool_opts[0]="--interval=100"; pbench-register-tool --name=pidstat --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T20:59:45.139189459] tool_opts: --osecomponent=node --interval=600
+[debug][2017-09-20T20:59:45.144222008] tool_opts[0]="--osecomponent=node"; tool_opts[1]="--interval=600"; pbench-register-tool --name=pprof --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T20:59:48.641829308] tool_opts: --interval=100
+[debug][2017-09-20T20:59:48.647024741] tool_opts[0]="--interval=100"; pbench-register-tool --name=sar --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T20:59:49.456267283] tool_opts: --interval=600
+[debug][2017-09-20T20:59:49.461459692] tool_opts[0]="--interval=600"; pbench-register-tool --name=iostat --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T20:59:49.934524803] tool_opts: --interval=100
+[debug][2017-09-20T20:59:49.939422972] tool_opts[0]="--interval=100"; pbench-register-tool --name=pidstat --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T20:59:50.412228892] tool_opts: --osecomponent=node --interval=600
+[debug][2017-09-20T20:59:50.417227842] tool_opts[0]="--osecomponent=node"; tool_opts[1]="--interval=600"; pbench-register-tool --name=pprof --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T20:59:52.848075646] tool_opts: --interval=100
+[debug][2017-09-20T20:59:52.853107658] tool_opts[0]="--interval=100"; pbench-register-tool --name=sar --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T20:59:53.612484611] tool_opts: --interval=600
+[debug][2017-09-20T20:59:53.617433348] tool_opts[0]="--interval=600"; pbench-register-tool --name=iostat --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T20:59:54.112289989] tool_opts: --interval=100
+[debug][2017-09-20T20:59:54.117298999] tool_opts[0]="--interval=100"; pbench-register-tool --name=pidstat --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T20:59:54.613936437] tool_opts: --osecomponent=node --interval=600
+[debug][2017-09-20T20:59:54.619105753] tool_opts[0]="--osecomponent=node"; tool_opts[1]="--interval=600"; pbench-register-tool --name=pprof --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T21:00:00.277581137] tool_opts: --interval=100
+[debug][2017-09-20T21:00:00.282376562] tool_opts[0]="--interval=100"; pbench-register-tool --name=sar --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T21:00:01.192105123] tool_opts: --interval=600
+[debug][2017-09-20T21:00:01.197208014] tool_opts[0]="--interval=600"; pbench-register-tool --name=iostat --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T21:00:01.686049736] tool_opts: --interval=100
+[debug][2017-09-20T21:00:01.691045450] tool_opts[0]="--interval=100"; pbench-register-tool --name=pidstat --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T21:00:02.183166040] tool_opts: --osecomponent=node --interval=600
+[debug][2017-09-20T21:00:02.187696339] tool_opts[0]="--osecomponent=node"; tool_opts[1]="--interval=600"; pbench-register-tool --name=pprof --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T21:00:06.805645446] tool_opts: --interval=100
+[debug][2017-09-20T21:00:06.810688767] tool_opts[0]="--interval=100"; pbench-register-tool --name=sar --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T21:00:07.655705545] tool_opts: --interval=600
+[debug][2017-09-20T21:00:07.660553529] tool_opts[0]="--interval=600"; pbench-register-tool --name=iostat --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T21:00:08.161238718] tool_opts: --interval=100
+[debug][2017-09-20T21:00:08.166378973] tool_opts[0]="--interval=100"; pbench-register-tool --name=pidstat --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T21:00:08.666325531] tool_opts: --osecomponent=node --interval=600
+[debug][2017-09-20T21:00:08.670813035] tool_opts[0]="--osecomponent=node"; tool_opts[1]="--interval=600"; pbench-register-tool --name=pprof --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T21:00:11.130832898] tool_opts: --interval=100
+[debug][2017-09-20T21:00:11.135784018] tool_opts[0]="--interval=100"; pbench-register-tool --name=sar --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T21:00:12.692917172] tool_opts: --interval=600
+[debug][2017-09-20T21:00:12.697748592] tool_opts[0]="--interval=600"; pbench-register-tool --name=iostat --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T21:00:13.186875529] tool_opts: --interval=100
+[debug][2017-09-20T21:00:13.191679173] tool_opts[0]="--interval=100"; pbench-register-tool --name=pidstat --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T21:00:13.680191158] tool_opts: --osecomponent=node --interval=600
+[debug][2017-09-20T21:00:13.685236156] tool_opts[0]="--osecomponent=node"; tool_opts[1]="--interval=600"; pbench-register-tool --name=pprof --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T21:00:19.522257631] tool_opts: --interval=100
+[debug][2017-09-20T21:00:19.526930447] tool_opts[0]="--interval=100"; pbench-register-tool --name=sar --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T21:00:20.315075634] tool_opts: --interval=600
+[debug][2017-09-20T21:00:20.319904686] tool_opts[0]="--interval=600"; pbench-register-tool --name=iostat --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T21:00:20.805073677] tool_opts: --interval=100
+[debug][2017-09-20T21:00:20.809927277] tool_opts[0]="--interval=100"; pbench-register-tool --name=pidstat --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T21:00:21.295526450] tool_opts: --osecomponent=node --interval=600
+[debug][2017-09-20T21:00:21.300535027] tool_opts[0]="--osecomponent=node"; tool_opts[1]="--interval=600"; pbench-register-tool --name=pprof --group=default $label_opt -- "${tool_opts[@]}" 2>&1
+[debug][2017-09-20T21:00:44.169523020] [pbench-start-tools]started: --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a
+[debug][2017-09-20T21:00:44.236740308] [pbench-kill-tools]started: --group default
+[debug][2017-09-20T21:00:44.245862003] [pbench-kill-tools] /opt/pbench-agent/tool-scripts/iostat --kill --iteration=1 --group=default --dir=/tmp --interval=600
+[debug][2017-09-20T21:00:44.257275203] [pbench-kill-tools] /opt/pbench-agent/tool-scripts/oc --kill --iteration=1 --group=default --dir=/tmp 
+[debug][2017-09-20T21:00:44.264987903] [pbench-kill-tools] /opt/pbench-agent/tool-scripts/pidstat --kill --iteration=1 --group=default --dir=/tmp --interval=100
+[debug][2017-09-20T21:00:44.274803958] [pbench-kill-tools]running this tool on ip-172-31-11-61.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-11-61.us-west-2.compute.internal pbench-kill-tools --iteration=1 --group=default --dir=/tmp
+[debug][2017-09-20T21:00:44.280593101] [pbench-kill-tools]running this tool on ip-172-31-12-63.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-12-63.us-west-2.compute.internal pbench-kill-tools --iteration=1 --group=default --dir=/tmp
+[debug][2017-09-20T21:00:44.287006486] [pbench-kill-tools]running this tool on ip-172-31-15-112.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-15-112.us-west-2.compute.internal pbench-kill-tools --iteration=1 --group=default --dir=/tmp
+[debug][2017-09-20T21:00:44.293759138] [pbench-kill-tools]running this tool on ip-172-31-18-173.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-18-173.us-west-2.compute.internal pbench-kill-tools --iteration=1 --group=default --dir=/tmp
+[debug][2017-09-20T21:00:44.302075189] [pbench-kill-tools]running this tool on ip-172-31-18-174.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-18-174.us-west-2.compute.internal pbench-kill-tools --iteration=1 --group=default --dir=/tmp
+[debug][2017-09-20T21:00:44.311447932] [pbench-kill-tools]running this tool on ip-172-31-21-80.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-21-80.us-west-2.compute.internal pbench-kill-tools --iteration=1 --group=default --dir=/tmp
+[debug][2017-09-20T21:00:44.320173220] [pbench-kill-tools]running this tool on ip-172-31-48-190.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-48-190.us-west-2.compute.internal pbench-kill-tools --iteration=1 --group=default --dir=/tmp
+[debug][2017-09-20T21:00:44.326405452] [pbench-kill-tools]running this tool on ip-172-31-57-230.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-57-230.us-west-2.compute.internal pbench-kill-tools --iteration=1 --group=default --dir=/tmp
+[debug][2017-09-20T21:00:44.332690931] [pbench-kill-tools]running this tool on ip-172-31-59-223.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-59-223.us-west-2.compute.internal pbench-kill-tools --iteration=1 --group=default --dir=/tmp
+[debug][2017-09-20T21:00:44.338364449] [pbench-kill-tools] /opt/pbench-agent/tool-scripts/sar --kill --iteration=1 --group=default --dir=/tmp --interval=100
+[debug][2017-09-20T21:00:44.837121026] [pbench-kill-tools]completed: 
+[debug][2017-09-20T21:00:44.843029487] [pbench-start-tools] /opt/pbench-agent/tool-scripts/iostat --start --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a --interval=600
+[debug][2017-09-20T21:00:44.844865885] [pbench-start-tools] screen -dmS pbench-tool-iostat-default-1 /opt/pbench-agent/tool-scripts/iostat --start --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a --interval=600
+[debug][2017-09-20T21:00:44.850194591] [pbench-start-tools] /opt/pbench-agent/tool-scripts/oc --start --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a 
+[debug][2017-09-20T21:00:44.852265395] [pbench-start-tools] screen -dmS pbench-tool-oc-default-1 /opt/pbench-agent/tool-scripts/oc --start --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a 
+[debug][2017-09-20T21:00:44.858617484] [pbench-start-tools] /opt/pbench-agent/tool-scripts/pidstat --start --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a --interval=100
+[debug][2017-09-20T21:00:44.861038206] [pbench-start-tools] screen -dmS pbench-tool-pidstat-default-1 /opt/pbench-agent/tool-scripts/pidstat --start --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a --interval=100
+[debug][2017-09-20T21:00:44.873315310] [pbench-start-tools]running this tool on ip-172-31-11-61.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-11-61.us-west-2.compute.internal pbench-start-tools --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a
+[debug][2017-09-20T21:00:44.882344952] [pbench-start-tools]running this tool on ip-172-31-12-63.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-12-63.us-west-2.compute.internal pbench-start-tools --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a
+[debug][2017-09-20T21:00:44.905439202] [pbench-start-tools]running this tool on ip-172-31-15-112.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-15-112.us-west-2.compute.internal pbench-start-tools --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a
+[debug][2017-09-20T21:00:44.920422378] [pbench-start-tools]running this tool on ip-172-31-18-173.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-18-173.us-west-2.compute.internal pbench-start-tools --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a
+[debug][2017-09-20T21:00:44.935326373] [pbench-start-tools]running this tool on ip-172-31-18-174.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-18-174.us-west-2.compute.internal pbench-start-tools --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a
+[debug][2017-09-20T21:00:44.959644204] [pbench-start-tools]running this tool on ip-172-31-21-80.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-21-80.us-west-2.compute.internal pbench-start-tools --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a
+[debug][2017-09-20T21:00:44.972397455] iostat: running /usr/local/bin/iostat  -N -t -y -x -m 600
+[debug][2017-09-20T21:00:44.975607152] pidstat: running /usr/local/bin/pidstat  -l -w -u -h -d -r  -p ALL  100
+[debug][2017-09-20T21:00:44.975721593] [pbench-start-tools]running this tool on ip-172-31-48-190.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-48-190.us-west-2.compute.internal pbench-start-tools --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a
+[debug][2017-09-20T21:00:44.987448850] [pbench-start-tools]running this tool on ip-172-31-57-230.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-57-230.us-west-2.compute.internal pbench-start-tools --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a
+[debug][2017-09-20T21:00:45.005334964] [pbench-start-tools]running this tool on ip-172-31-59-223.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-59-223.us-west-2.compute.internal pbench-start-tools --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a
+[debug][2017-09-20T21:00:45.014725663] [pbench-start-tools] /opt/pbench-agent/tool-scripts/sar --start --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a --interval=100
+[debug][2017-09-20T21:00:45.016753761] [pbench-start-tools] screen -dmS pbench-tool-sar-default-1 /opt/pbench-agent/tool-scripts/sar --start --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a --interval=100
+[debug][2017-09-20T21:00:45.017014622] [check_install_rpm] attempting to install expect
+[debug][2017-09-20T21:00:45.090522181] sar: running /usr/local/bin/sar  -A -o /var/lib/pbench-agent/hk-glusterfs-stress-a/tools-default/sar/sar.data 100
+[debug][2017-09-20T21:00:45.396342215] [pbench-start-tools]completed: 
+[debug][2017-09-20T23:00:16.464217809] [pbench-stop-tools]started: --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a
+[debug][2017-09-20T23:00:16.473609102] [pbench-stop-tools] /opt/pbench-agent/tool-scripts/iostat --stop --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a --interval=600
+[debug][2017-09-20T23:00:16.478397278] [pbench-stop-tools] /opt/pbench-agent/tool-scripts/oc --stop --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a 
+[debug][2017-09-20T23:00:16.485055222] [pbench-stop-tools] /opt/pbench-agent/tool-scripts/pidstat --stop --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a --interval=100
+[debug][2017-09-20T23:00:16.519215879] [pbench-stop-tools]running this tool on ip-172-31-11-61.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-11-61.us-west-2.compute.internal pbench-stop-tools --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a
+[debug][2017-09-20T23:00:16.552015687] [pbench-stop-tools]running this tool on ip-172-31-12-63.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-12-63.us-west-2.compute.internal pbench-stop-tools --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a
+[debug][2017-09-20T23:00:16.575129527] [pbench-stop-tools]running this tool on ip-172-31-15-112.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-15-112.us-west-2.compute.internal pbench-stop-tools --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a
+[debug][2017-09-20T23:00:16.592852862] [pbench-stop-tools]running this tool on ip-172-31-18-173.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-18-173.us-west-2.compute.internal pbench-stop-tools --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a
+[debug][2017-09-20T23:00:16.605974390] [pbench-stop-tools]running this tool on ip-172-31-18-174.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-18-174.us-west-2.compute.internal pbench-stop-tools --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a
+[debug][2017-09-20T23:00:16.631871882] stopping iostat
+[debug][2017-09-20T23:00:16.650369407] [pbench-stop-tools]running this tool on ip-172-31-21-80.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-21-80.us-west-2.compute.internal pbench-stop-tools --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a
+[debug][2017-09-20T23:00:16.659206166] stopping pidstat
+[debug][2017-09-20T23:00:16.673799145] [pbench-stop-tools]running this tool on ip-172-31-48-190.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-48-190.us-west-2.compute.internal pbench-stop-tools --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a
+[debug][2017-09-20T23:00:16.694330340] [pbench-stop-tools]running this tool on ip-172-31-57-230.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-57-230.us-west-2.compute.internal pbench-stop-tools --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a
+[debug][2017-09-20T23:00:16.716135814] [pbench-stop-tools]running this tool on ip-172-31-59-223.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-59-223.us-west-2.compute.internal pbench-stop-tools --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a
+[debug][2017-09-20T23:00:16.727863820] [pbench-stop-tools] /opt/pbench-agent/tool-scripts/sar --stop --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a --interval=100
+[debug][2017-09-20T23:00:16.860185450] stopping sar
+[debug][2017-09-20T23:00:22.447729479] [pbench-stop-tools]completed: 
+[debug][2017-09-20T23:00:33.121222675] [pbench-postprocess-tools]started: --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a
+[debug][2017-09-20T23:00:33.130949494] [pbench-postprocess-tools] /opt/pbench-agent/tool-scripts/iostat --postprocess --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a --interval=600
+[debug][2017-09-20T23:00:33.134636324] [pbench-postprocess-tools] /opt/pbench-agent/tool-scripts/oc --postprocess --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a 
+[debug][2017-09-20T23:00:33.139157743] [pbench-postprocess-tools] /opt/pbench-agent/tool-scripts/pidstat --postprocess --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a --interval=100
+[debug][2017-09-20T23:00:33.158603585] [pbench-postprocess-tools]running this tool on ip-172-31-11-61.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-11-61.us-west-2.compute.internal pbench-postprocess-tools --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a
+[debug][2017-09-20T23:00:33.191802849] [pbench-postprocess-tools]running this tool on ip-172-31-12-63.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-12-63.us-west-2.compute.internal pbench-postprocess-tools --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a
+[debug][2017-09-20T23:00:33.205441455] [pbench-postprocess-tools]running this tool on ip-172-31-15-112.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-15-112.us-west-2.compute.internal pbench-postprocess-tools --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a
+[debug][2017-09-20T23:00:33.240928893] postprocessing iostat
+[debug][2017-09-20T23:00:33.245467243] [pbench-postprocess-tools]running this tool on ip-172-31-18-173.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-18-173.us-west-2.compute.internal pbench-postprocess-tools --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a
+[debug][2017-09-20T23:00:33.259259389] postprocessing pidstat
+[debug][2017-09-20T23:00:33.261472107] [pbench-postprocess-tools]running this tool on ip-172-31-18-174.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-18-174.us-west-2.compute.internal pbench-postprocess-tools --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a
+[debug][2017-09-20T23:00:33.276252608] [pbench-postprocess-tools]running this tool on ip-172-31-21-80.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-21-80.us-west-2.compute.internal pbench-postprocess-tools --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a
+[debug][2017-09-20T23:00:33.283328715] [pbench-postprocess-tools]running this tool on ip-172-31-48-190.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-48-190.us-west-2.compute.internal pbench-postprocess-tools --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a
+[debug][2017-09-20T23:00:33.305869689] [pbench-postprocess-tools]running this tool on ip-172-31-57-230.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-57-230.us-west-2.compute.internal pbench-postprocess-tools --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a
+[debug][2017-09-20T23:00:33.327464590] [pbench-postprocess-tools]running this tool on ip-172-31-59-223.us-west-2.compute.internal: ssh -o StrictHostKeyChecking=no -n ip-172-31-59-223.us-west-2.compute.internal pbench-postprocess-tools --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a
+[debug][2017-09-20T23:00:33.345456161] [pbench-postprocess-tools] /opt/pbench-agent/tool-scripts/sar --postprocess --iteration=1 --group=default --dir=/var/lib/pbench-agent/hk-glusterfs-stress-a --interval=100
+[debug][2017-09-20T23:00:33.492317352] postprocessing sar
+[debug][2017-09-20T23:00:44.220347996] [pbench-postprocess-tools]started: copying tool data (11 MB) from ip-172-31-18-174.us-west-2.compute.internal
+[debug][2017-09-20T23:00:44.224070243] [pbench-postprocess-tools]started: copying tool data (8 MB) from ip-172-31-11-61.us-west-2.compute.internal
+[debug][2017-09-20T23:00:44.235690709] [pbench-postprocess-tools]started: copying tool data (11 MB) from ip-172-31-21-80.us-west-2.compute.internal
+[debug][2017-09-20T23:00:44.274842175] [pbench-postprocess-tools]started: copying tool data (11 MB) from ip-172-31-48-190.us-west-2.compute.internal
+[debug][2017-09-20T23:00:44.279616400] [pbench-postprocess-tools]started: copying tool data (9 MB) from ip-172-31-59-223.us-west-2.compute.internal
+[debug][2017-09-20T23:00:44.376919961] [pbench-postprocess-tools]started: copying tool data (25 MB) from ip-172-31-18-173.us-west-2.compute.internal
+[debug][2017-09-20T23:00:44.378601512] [pbench-postprocess-tools]started: copying tool data (25 MB) from ip-172-31-12-63.us-west-2.compute.internal
+[debug][2017-09-20T23:00:44.425367167] [pbench-postprocess-tools]started: copying tool data (25 MB) from ip-172-31-15-112.us-west-2.compute.internal
+[debug][2017-09-20T23:00:44.441942121] [pbench-postprocess-tools]started: copying tool data (25 MB) from ip-172-31-57-230.us-west-2.compute.internal
+[debug][2017-09-20T23:00:44.488962160] [pbench-postprocess-tools]completed: copying of tool data on ip-172-31-11-61.us-west-2.compute.internal
+[debug][2017-09-20T23:00:44.490647801] [pbench-postprocess-tools]started: deleting tool data on ip-172-31-11-61.us-west-2.compute.internal
+[debug][2017-09-20T23:00:44.595499811] [pbench-postprocess-tools]completed: copying of tool data on ip-172-31-18-174.us-west-2.compute.internal
+[debug][2017-09-20T23:00:44.599799647] [pbench-postprocess-tools]started: deleting tool data on ip-172-31-18-174.us-west-2.compute.internal
+[debug][2017-09-20T23:00:44.617236421] [pbench-postprocess-tools]completed: copying of tool data on ip-172-31-21-80.us-west-2.compute.internal
+[debug][2017-09-20T23:00:44.619004690] [pbench-postprocess-tools]started: deleting tool data on ip-172-31-21-80.us-west-2.compute.internal
+[debug][2017-09-20T23:00:44.628379614] [pbench-postprocess-tools]completed: copying of tool data on ip-172-31-59-223.us-west-2.compute.internal
+[debug][2017-09-20T23:00:44.633014875] [pbench-postprocess-tools]started: deleting tool data on ip-172-31-59-223.us-west-2.compute.internal
+[debug][2017-09-20T23:00:44.686279997] [pbench-postprocess-tools]completed: deleting tool data on ip-172-31-11-61.us-west-2.compute.internal
+[debug][2017-09-20T23:00:44.693562253] [pbench-postprocess-tools]completed: copying of tool data on ip-172-31-48-190.us-west-2.compute.internal
+[debug][2017-09-20T23:00:44.696005846] [pbench-postprocess-tools]started: deleting tool data on ip-172-31-48-190.us-west-2.compute.internal
+[debug][2017-09-20T23:00:44.784355127] [pbench-postprocess-tools]completed: deleting tool data on ip-172-31-18-174.us-west-2.compute.internal
+[debug][2017-09-20T23:00:44.801518227] [pbench-postprocess-tools]completed: deleting tool data on ip-172-31-59-223.us-west-2.compute.internal
+[debug][2017-09-20T23:00:44.868100819] [pbench-postprocess-tools]completed: deleting tool data on ip-172-31-21-80.us-west-2.compute.internal
+[debug][2017-09-20T23:00:44.954860919] [pbench-postprocess-tools]completed: deleting tool data on ip-172-31-48-190.us-west-2.compute.internal
+[debug][2017-09-20T23:00:45.118573275] [pbench-postprocess-tools]completed: copying of tool data on ip-172-31-12-63.us-west-2.compute.internal
+[debug][2017-09-20T23:00:45.128610122] [pbench-postprocess-tools]completed: copying of tool data on ip-172-31-18-173.us-west-2.compute.internal
+[debug][2017-09-20T23:00:45.128342674] [pbench-postprocess-tools]started: deleting tool data on ip-172-31-12-63.us-west-2.compute.internal
+[debug][2017-09-20T23:00:45.132230033] [pbench-postprocess-tools]started: deleting tool data on ip-172-31-18-173.us-west-2.compute.internal
+[debug][2017-09-20T23:00:45.163412669] [pbench-postprocess-tools]completed: copying of tool data on ip-172-31-15-112.us-west-2.compute.internal
+[debug][2017-09-20T23:00:45.167034123] [pbench-postprocess-tools]started: deleting tool data on ip-172-31-15-112.us-west-2.compute.internal
+[debug][2017-09-20T23:00:45.388809017] [pbench-postprocess-tools]completed: copying of tool data on ip-172-31-57-230.us-west-2.compute.internal
+[debug][2017-09-20T23:00:45.390723244] [pbench-postprocess-tools]started: deleting tool data on ip-172-31-57-230.us-west-2.compute.internal
+[debug][2017-09-20T23:00:45.446224466] [pbench-postprocess-tools]completed: deleting tool data on ip-172-31-12-63.us-west-2.compute.internal
+[debug][2017-09-20T23:00:45.525146539] [pbench-postprocess-tools]completed: deleting tool data on ip-172-31-15-112.us-west-2.compute.internal
+[debug][2017-09-20T23:00:45.630376846] [pbench-postprocess-tools]completed: deleting tool data on ip-172-31-18-173.us-west-2.compute.internal
+[debug][2017-09-20T23:00:45.834914576] [pbench-postprocess-tools]completed: deleting tool data on ip-172-31-57-230.us-west-2.compute.internal
+[debug][2017-09-20T23:00:45.837672331] [pbench-postprocess-tools]completed: 
